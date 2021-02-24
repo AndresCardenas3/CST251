@@ -1,0 +1,24 @@
+body {
+    font-family:"Papyrus", fantasy;
+    background-color: #71fffd;
+    padding: 10px;
+    font-size: 100%;
+}
+
+div#content {
+    padding: 10px;
+    background-color: #fffebc;
+    border: solid 3px #333333;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: "Papyrus", fantasy;
+}
+
+img {
+    width: 1000px;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
