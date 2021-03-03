@@ -1,0 +1,46 @@
+body {
+  background-image: url("..//img/mt-fuji.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#content {
+  border-style: dotted;
+  border-color: pink;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+h1 {
+  border: solid 1px black;
+  background-color: white;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+h2 {
+  font-family: "Lucida Handwriting", cursive;
+}
+
+p {
+  font-family: "Monoco", monospace;
+}
+
+#challenge h2 {
+  color: red;
+}
+
+#problems h2 {
+  color: red;
+}
+
+#results h2 {
+  color: red;
+}
+
+img {
+  width: 25%;
+  border: outset 1px white;
+}
