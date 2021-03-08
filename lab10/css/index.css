@@ -14,12 +14,12 @@ h1 {
   border: solid 1px black;
   background-color: white;
   font-family: "Garamond", serif;
-  text-transform: uppercase;
+  text-transform:uppercase;
   letter-spacing: 3px
 }
 
 h2 {
-  text-transform: uppercase;
+  text-transform:uppercase;
   font-family: "Garamond", serif;
   letter-spacing: 3px
 }
