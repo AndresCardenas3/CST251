@@ -1,0 +1,36 @@
+body {
+  background-color: orange;
+  font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  color: white;
+  width: 50%;
+}
+
+#text {
+  width: 50%
+}
+#sidebar {
+  display: inline-block;
+  padding: 20px;
+  border-style: groove;
+  border-color: black;
+  position: absolute;
+  right: 0;
+  width: 33%;
+  min-width: 300px;
+  background-color: white;
+}
+
+#links {
+  position: sticky;
+  top: 0;
+}
+
+#img {
+  border-style: ridge;
+  border-color: black;
+  width: 600px;
+  height: 600px;
+}
