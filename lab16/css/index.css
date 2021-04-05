@@ -1,0 +1,58 @@
+body {
+  background-image: url("..//img/airplane.png"), url("..//img/clouds.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 40%, cover;
+  background-position: right bottom, center;
+  background-attachment: fixed, fixed;
+}
+
+#title {
+  border-style: double;
+  border-color: white;
+  transition: color 2s;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 250%
+}
+
+#title:hover {
+  color: fuchsia;
+}
+
+#body {
+  transition: opacity 4s;
+  border-style: double;
+  border-color: white;
+  background-color: moccasin;
+  margin: 20px;
+  padding: 20px;
+}
+
+#body:hover {
+  opacity: 25%
+}
+
+h2 {
+  font-size: 200%
+}
+p {
+  column-count: 3;
+  font-size: 200%
+}
+
+/* The animation code */
+@keyframes example {
+  0% {background-color: moccasin;}
+  50% {background-color: lightcyan;}
+  100% {background-color: pink;}
+}
+
+/* the element to apply the animation to */
+#body {
+  animation-name: example;
+  animation-duration: 7s;
+  animation-delay: 3s;
+  background-color: moccasin;
+  animation-iteration-count: infinite;
+}
